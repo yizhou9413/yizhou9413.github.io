@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>周熠 (Zhou Yi) - 个人主页</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
+        header { text-align: center; margin-bottom: 40px; }
+        h1 { margin-bottom: 5px; color: #2c3e50; }
+        .subtitle { color: #7f8c8d; font-size: 1.1em; }
+        .contact-info { margin-top: 15px; font-size: 0.9em; }
+        
+        section { margin-bottom: 30px; }
+        h2 { border-bottom: 2px solid #eaeaea; padding-bottom: 10px; color: #2c3e50; }
+        
+        .item { margin-bottom: 15px; }
+        .item-header { display: flex; justify-content: space-between; font-weight: bold; }
+        .item-sub { color: #666; font-style: italic; }
+        
+        .btn { display: inline-block; background: #2c3e50; color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 10px; }
+        .btn:hover { background: #34495e; }
+
+        /* PDF 嵌入样式 */
+        .pdf-container { width: 100%; height: 500px; border: 1px solid #ddd; margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>周熠 (Zhou Yi)</h1>
+    <div class="subtitle">车辆工程硕士研究生 | 重庆大学</div>
+    <div class="contact-info">
+        📧 zhouyi9413@163.com | 📍 重庆市
+    </div>
+</header>
+
+<section>
+    <h2>关于我 (About Me)</h2>
+    <p>
+        我是重庆大学车辆工程专业的硕士研究生，本科毕业于东北大学。
+        我的研究兴趣主要集中在<b>无人驾驶建模与控制</b>、<b>鲁棒强化学习</b>以及<b>数字孪生</b>技术。
+        我熟练掌握 MATLAB、SolidWorks、Ansys 等工程软件，并拥有扎实的车辆动力学与控制理论基础。
+    </p>
+</section>
+
+<section>
+    <h2>教育背景 (Education)</h2>
+    <div class="item">
+        <div class="item-header">
+            <span>重庆大学 (Chongqing University)</span>
+            <span>2023 - 至今</span>
+        </div>
+        <div class="item-sub">硕士 - 车辆工程 | 绩点: 3.25/5</div>
+    </div>
+    <div class="item">
+        <div class="item-header">
+            <span>东北大学 (Northeastern University)</span>
+            <span>2019 - 2023</span>
+        </div>
+        <div class="item-sub">本科 - 车辆工程 | 绩点: 3.25/5</div>
+        <div>荣誉：校级三等奖学金 (2022/2023)、优秀毕业生干部、全国大学生数学竞赛三等奖</div>
+    </div>
+</section>
+
+<section>
+    <h2>科研成果 (Publications & Research)</h2>
+    <div class="item">
+        <div class="item-header">
+            <span>Robust motion control policy learning for autonomous driving under coupled uncertainties</span>
+        </div>
+        <div class="item-sub">Y. Shen, Y. Zhou, et al. | Proc. 9th CAA International Conference on Vehicular Control and Intelligence (CVCI), Oct. 2025.</div>
+    </div>
+    <div class="item">
+        <div class="item-header">
+            <span>拉维娜式三挡自动变速器设计 (本科毕业论文)</span>
+        </div>
+        <div>设计并通过液力变矩器与行星齿轮机构实现自动换挡，旨在提高动力传递效率与驾驶平顺性。</div>
+    </div>
+</section>
+
+<section>
+    <h2>技能 (Skills)</h2>
+    <p>
+        <strong>专业软件：</strong> MATLAB, Simulink, SOLIDWORKS, CAD, Ansys<br>
+        <strong>语言能力：</strong> CET-6 (540分), CET-4 (520分)
+    </p>
+</section>
+
+<section>
+    <h2>我的简历 (Resume)</h2>
+    <p>你可以直接在下方预览，或者点击按钮下载完整版 PDF。</p>
+    <a href="resume.pdf" class="btn" target="_blank">📥 下载 PDF 简历</a>
+    
+    <iframe src="resume.pdf" class="pdf-container">
+        <p>您的浏览器不支持 PDF 预览，请点击上方按钮下载。</p>
+    </iframe>
+</section>
+
+</body>
+</html>
